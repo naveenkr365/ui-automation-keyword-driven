@@ -1,10 +1,10 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Regression Suite">
 	<parameter name="browser" value="chrome"/>
-	<parameter name="appURL" value="https://freshdesk-aud-test.chargebee.com/"/>
+	<parameter name="appURL" value=""/>
 	<test name="Sku Automation">
 		<classes>
-			<class name="com.itppm.test.app.DriverApp"></class>
+			<class name="com.uiauto.test.app.DriverApp"></class>
 		</classes>
 	</test>
 </suite>
